@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Mansion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Mystery Mansion</h1>
+        <img id="game-image" src="images/start.jpg" alt="Game Image">
+        <p id="story-text">You stand before a grand, imposing mansion. A storm rages, and the only light comes from the mansion's windows. Will you enter?</p>
+        <div id="choices-container">
+            <!-- Choice buttons will be generated dynamically -->
+        </div>
+    </div>
+
+    <footer>
+        <p>Last updated: <span id="lastModified"></span></p>
+    </footer>
+    <script type="text/javascript">
+        var x = document.lastModified;
+        document.getElementById('lastModified').textContent = x;
+    </script>
+    <!-- Updated the script reference to match the JavaScript file name -->
+    <script src="Index.js"></script>
+</body>
+</html>
